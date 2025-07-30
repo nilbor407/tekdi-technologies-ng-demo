@@ -6,14 +6,7 @@ This is a simple Angular demo project showcasing CRUD operations using the JSONP
 
 ## 📹 Demo Video
 
-🎬 Demo coming soon...
-
-```html
-<video width="100%" controls>
-  <source src="https://user-images.githubusercontent.com/Recording 2025-07-30 223150.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```
+[![Watch the demo](https://img.youtube.com/vi/qzTBZ3sC27Y/0.jpg)](https://www.youtube.com/watch?v=qzTBZ3sC27Y)
 
 ---
 
