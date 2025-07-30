@@ -2,7 +2,14 @@
 
 This is a simple Angular demo project showcasing CRUD operations using the JSONPlaceholder fake REST API. It features post listing, post details, create/edit/delete functionality, and a responsive Bootstrap UI.
 
+
 ---
+
+## Live Demo
+🔗 https://tekdi-technologies-ng-demo.onrender.com/
+
+---
+
 
 ## 📹 Demo Video
 
