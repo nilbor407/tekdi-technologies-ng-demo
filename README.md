@@ -1,59 +1,116 @@
-# Demo
+# 📘 Tekdi Technologies Angular Demo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+This is a simple Angular demo project showcasing CRUD operations using the JSONPlaceholder fake REST API. It features post listing, post details, create/edit/delete functionality, and a responsive Bootstrap UI.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📹 Demo Video
+
+🎬 Demo coming soon...
+
+```html
+<video width="100%" controls>
+  <source src="https://user-images.githubusercontent.com/Recording 2025-07-30 223150.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── app/
+│   ├── create-post/
+│   ├── edit-post/
+│   ├── home/
+│   ├── navbar/
+│   ├── post-details/
+│   ├── api.service.ts
+│   ├── app.routes.ts
+│   ├── app.config.ts
+│   └── app.component.*
+├── assets/
+├── index.html
+└── main.ts
+```
+
+---
+
+## ⚙️ Features
+
+- ✅ View all posts
+- ✅ View post details with comments
+- ✅ Create new post
+- ✅ Edit existing post
+- ✅ Delete post
+- ✅ Bootstrap 5 responsive UI
+- ✅ Angular Standalone Component Architecture
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nilbor407/tekdi-technologies-ng-demo.git
+cd tekdi-technologies-ng-demo
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then open your browser and navigate to [http://localhost:4200](http://localhost:4200)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📦 Building the Project
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+To compile the application:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The output will be stored in the `dist/` directory.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 🔬 Code Scaffolding
 
-For end-to-end (e2e) testing, run:
+To generate a new component or service:
 
 ```bash
-ng e2e
+ng generate component component-name
+ng generate service service-name
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+List all schematics:
 
-## Additional Resources
+```bash
+ng generate --help
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+More info: [Angular CLI Overview](https://angular.dev/tools/cli)
+
+---
+
+
+## 👤 Author
+
+**Nilesh Borkar**  
+🔗 https://github.com/nilbor407
