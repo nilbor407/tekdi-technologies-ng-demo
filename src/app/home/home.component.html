@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+  <h3 class="mb-3">All Posts</h3>
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover table-striped align-middle">
+      <thead class="table-primary text-center">
+        <tr>
+            <th>Actions</th>
+            <th>Sr.No.</th>
+            <th>Title</th>
+            <th>Body</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of allPosts; let i = index">
+          <td class="text-center">
+            <a [routerLink]="['/post_details', row.id]">
+                <i class="fi fi-ts-terms-info"></i>
+            </a>
+          
+            <a [routerLink]="['/edit_post', row.id]" class="ms-2">
+                <i class="fi fi-tc-pencil"></i>
+            </a>
+          
+            <a (click)="deletePost(row.id)" class="ms-2 text-danger" style="cursor: pointer;">
+                <i class="fi fi-tc-trash"></i>
+            </a>
+
+          </td>
+          
+          <td class="text-center">{{ i + 1 }}</td>
+          <td>
+            <div class="text-truncate-custom2" [title]="row.title">{{ row.title }}</div>
+          </td>
+          <td>
+            <div class="text-truncate-custom" [title]="row.body">{{ row.body }}</div>
+          </td>
+          
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
